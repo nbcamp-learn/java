@@ -34,5 +34,22 @@ public class Main {
         final int num2 = 10;    // 1. 상수로 선언(타입 앞에 'final' 붙이면 된다.)
 //        num2 = 11;              // 2. 변수값을 변경하면 에러가 난다.
 
+        // 변수 타입 - 기본형 변수
+        // 논리형 변수 - boolean
+        boolean flag = true;    // 1. 논리형 변수 boolean 선언 및 True 값으로 초기화
+        flag = false;           // 2. False 값으로 저장 가능
+
+        // 문자형 변수 - char
+        char c = 'A';       // 문자 하나를 저장한다.
+
+        // 정수형 변수 - byte, short, int, long
+        byte byteNumber = 127;              // byte -128 ~ 127 범위와 숫자만 저장 가능
+        short shortNumber = 32767;          // short -32,768~32,767 범위와 숫자만 저장 가능
+        int intNumber = 2147483647;         // int -21 ~21 범위와 숫자만 저장 가능
+        long longNumber = 2147483647L;      // long은 숫자 뒤에 L을 붙여서 표기하며 매우 큰 수를 저장 가능
+
+        // 실수형 변수 - float, double
+        float floatNumber = 0.123f;         // float 4byte 3.4 * 10^38 범위를 표현하는 실수값
+        double doubleNumber = 0.123123123;  // double 8byte 1.7 * 10^308 범위를 표현하는 실수값
     }
 }
