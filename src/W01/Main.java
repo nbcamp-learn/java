@@ -59,6 +59,6 @@ public class Main {
         String message = "Hello World"; // 문자열을 저장
 
         // 그 외 - Object, Array, LIst
-        List<int> n = {0, 1, 2, 3, 4};  //  기본형 변수 여러개 저장
+        List<Integer> n = List.of(0, 1, 2, 3);  //  기본형 변수 여러개 저장
     }
 }
