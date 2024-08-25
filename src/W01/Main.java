@@ -60,5 +60,17 @@ public class Main {
 
         // 그 외 - Object, Array, LIst
         List<Integer> n = List.of(0, 1, 2, 3);  //  기본형 변수 여러개 저장
+
+        /* 변수 타입 - 래퍼 클래스 변수 */
+        // 기본형 변수를 클래스로 한번 랩핑하는 변수
+        // 박식 vs 언박싱
+
+        // 박싱
+        // Integer 래퍼 클래스 num 에 21 의 값을 저장
+        int number1 = 21;
+        Integer num3 = new Integer(number1);
+
+        // 언박싱
+        int n1 = num.intValue(); // 래퍼 클래스들은 inValue() 같은 언박싱 메서드들을 제공.
     }
 }
