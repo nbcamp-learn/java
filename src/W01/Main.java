@@ -18,5 +18,13 @@ public class Main {
          */
         String data = "데이터";     // 출력할 데이터 문자열
         System.out.println(data); // 데이터를 출력한다
+
+        // 저장공간의 선언과 값의 저장
+        int number;     // number 이름의 int 타입의 저장공간을 선언
+        String name;    // name 이름의 String 타입의 저장공간을 선언
+
+        int num = 11;   // 1. 선언과 동시에 값을 초기화
+        num = 10;         // 2. 선언 이후 다른값을 저장공간에 저장
+
     }
 }
