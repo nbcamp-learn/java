@@ -13,8 +13,8 @@ public class Main {
         System.out.println(3.14);
         System.out.println("JAVA");
 
-        // 주석
         /*
+         //주석
          * 실제 츠로그램 실핼에는 영향을 미치지 않는 유령코드.
          * 개발자들끼리 협업할때 코드에 대한 설명을 추가하거나 주의사항 메모할 때 사용.
          */
