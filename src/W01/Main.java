@@ -9,8 +9,7 @@ public class Main {
         System.out.println("Hello, Java!");
 
         System.out.print(7);
-        System.out.println(3);
-        System.out.println(3.14);
+        System.out.println(3);        System.out.println(3.14);
         System.out.println("JAVA");
 
         /*
@@ -71,5 +70,6 @@ public class Main {
 
         // 언박싱
 //        int n1 = num.intValue(); // 래퍼 클래스들은 inValue() 같은 언박싱 메서드들을 제공.
+
     }
 }
