@@ -88,5 +88,17 @@ public class Main {
         int asciiNumber = (int) letter;
 
         System.out.println(asciiNumber);
+
+        /* 문자와 문자열 */
+        // 선언 관점에서 차이점
+        // 문자
+        // 문자 뒤에 \0(널문자)가 없음 (1byte만 쓰기 때문에 끝을 알아서 데이터만 저장하면 된다.)
+        char alphabet = 'A';    // 문자 하나를 저장함
+
+        // 문자열
+        // 다른 기본형 변수가 실제 값을 저장하는 저장공간이라면 참조형 변수는 실제 값이 아닌 원본값의 주소값을 저장한다.
+        // 참조형 변수는 주소값을 저장하는 주소형 변수라고 부르기도 함
+        String str = "Hello World";    // 문자열을 저장함
+
     }
 }
