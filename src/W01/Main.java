@@ -1,6 +1,7 @@
 package W01;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +10,8 @@ public class Main {
         System.out.println("Hello, Java!");
 
         System.out.print(7);
-        System.out.println(3);        System.out.println(3.14);
+        System.out.println(3);
+        System.out.println(3.14);
         System.out.println("JAVA");
 
         /*
@@ -70,5 +72,33 @@ public class Main {
 
         // 언박싱
 //        int n1 = num.intValue(); // 래퍼 클래스들은 inValue() 같은 언박싱 메서드들을 제공.
+
+        System.out.println("-----------------------------------------------------");
+        /* 숫자와 문자 */
+        // 숫자 -> 문자
+        Scanner sc = new Scanner(System.in);
+
+//        int asciiNumber = sc.nextInt();
+//        char ch = (char) asciiNumber;   // 문자로 형변환을 해주면 숫자에 맞는 문자로 표현됨
+
+//        System.out.println(ch);
+
+        // 문자 -> 숫자
+        char letter = sc.nextLine().charAt(0);  // 첫번째 글자만 받아오기 위해 charAt(0) 메서드를 사용한다.
+        int asciiNumber = (int) letter;
+
+        System.out.println(asciiNumber);
+
+        /* 문자와 문자열 */
+        // 선언 관점에서 차이점
+        // 문자
+        // 문자 뒤에 \0(널문자)가 없음 (1byte만 쓰기 때문에 끝을 알아서 데이터만 저장하면 된다.)
+        char alphabet = 'A';    // 문자 하나를 저장함
+
+        // 문자열
+        // 다른 기본형 변수가 실제 값을 저장하는 저장공간이라면 참조형 변수는 실제 값이 아닌 원본값의 주소값을 저장한다.
+        // 참조형 변수는 주소값을 저장하는 주소형 변수라고 부르기도 함
+        String str = "Hello World";    // 문자열을 저장함
+
     }
 }
