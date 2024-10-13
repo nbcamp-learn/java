@@ -76,7 +76,7 @@ public class Main {
         System.out.println("-----------------------------------------------------");
         /* 숫자와 문자 */
         // 숫자 -> 문자
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
 
 //        int asciiNumber = sc.nextInt();
 //        char ch = (char) asciiNumber;   // 문자로 형변환을 해주면 숫자에 맞는 문자로 표현됨
@@ -84,10 +84,10 @@ public class Main {
 //        System.out.println(ch);
 
         // 문자 -> 숫자
-        char letter = sc.nextLine().charAt(0);  // 첫번째 글자만 받아오기 위해 charAt(0) 메서드를 사용한다.
-        int asciiNumber = (int) letter;
+//        char letter = sc.nextLine().charAt(0);  // 첫번째 글자만 받아오기 위해 charAt(0) 메서드를 사용한다.
+//        int asciiNumber = (int) letter;
 
-        System.out.println(asciiNumber);
+//        System.out.println(asciiNumber);
 
         /* 문자와 문자열 */
         // 선언 관점에서 차이점
@@ -100,5 +100,12 @@ public class Main {
         // 참조형 변수는 주소값을 저장하는 주소형 변수라고 부르기도 함
         String str = "Hello World";    // 문자열을 저장함
 
+        /* 입력&출력 */
+        // 입력
+        Scanner sc = new Scanner(System.in);    // Scanner 객체를 new 명령어로 생성
+        String input = sc.next();   // sc(Scanner)의 .next(); 를 실해롸면 input 변수에 입력한 글자를 받을 수 있음
+
+        // 출력
+        System.out.println("입력값 : " + input);   // 입력한 글자를 출력
     }
 }
