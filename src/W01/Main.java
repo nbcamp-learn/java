@@ -107,5 +107,17 @@ public class Main {
 
         // 출력
         System.out.println("입력값 : " + input);   // 입력한 글자를 출력
+
+        /* 형변환 */
+        // Double, Float to int
+        double dNumber = 10.101010;
+        float fNumber = 10.1010F;
+
+        int iNumber;
+        iNumber = (int) dNumber;
+        System.out.println(iNumber);
+
+        iNumber = (int) fNumber;
+        System.out.println(iNumber);
     }
 }
