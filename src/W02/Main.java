@@ -25,5 +25,10 @@ public class Main {
         System.out.println(2 + 2 * 2); // 6
         System.out.println((2 + 2) * 2); // 8
         System.out.println(2 + (2 * 2)); // 6
+
+        // 변수를 이용한 연산
+        int a = 20;
+        int b = 10;
+        int c;
     }
 }
