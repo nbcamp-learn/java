@@ -30,5 +30,25 @@ public class Main {
         int a = 20;
         int b = 10;
         int c;
+
+        // 덧셈
+        c = a + b;
+        System.out.println(c); // 30
+
+        // 뺼셈
+        c = a - b;
+        System.out.println(c); // 10
+
+        // 곱셈
+        c = a * b;
+        System.out.println(c); // 200
+
+        // 나눗셈 (몫)
+        c = a / b;
+        System.out.println(c); // 2
+
+        // 나눗셈 (나머지) = 나머지 연산
+        c = a % b;
+        System.out.println(c); // 0
     }
 }
