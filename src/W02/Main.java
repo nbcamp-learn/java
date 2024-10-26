@@ -123,5 +123,22 @@ public class Main {
         System.out.println(number); // 10
         number %= 2;
         System.out.println(number); // 0
+
+        // 기타 연산자
+        // 형변환 연산자
+        int intNumber = 93 + (int) 98.8; // 93 + 98
+        double doubleNumber = (double) 93 + 98.8; // 93.0 + 98.8
+
+        // 삼항 연산자
+        int xx = 1;
+        int yy = 9;
+        boolean bb = (xx == yy) ? true : false;
+        System.out.println(bb); // false
+        String s = (xx != yy) ? "정답" : "땡";
+        System.out.println(s); // 땡
+        int max = (xx > yy) ? xx : yy;
+        System.out.println(max); // 9
+        int min = (xx < yy) ? xx : yy;
+        System.out.println(min); // 1
     }
 }
