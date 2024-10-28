@@ -140,5 +140,22 @@ public class Main {
         System.out.println(max); // 9
         int min = (xx < yy) ? xx : yy;
         System.out.println(min); // 1
+
+        // 연산자 우선순위
+        int x1 = 2;
+        int y1 = 9;
+        int z1 = 10;
+
+        boolean result = x1 < y1 && y1 < z1; // <,> 비교연산자 계산 후 && 논리 연산자 계산
+        System.out.println(result); // true
+
+        result = x1 + 10 < y1 && y1 < z1; // +10 산술연산자 계산 후 <,> 비교연산자 계산 후 && 논리 연산자 계산
+        System.out.println(result); // false
+
+        result = x1 + 2 * 3 > y1; // 산술연산자 곱센 > 덧셈 순으로 계산 후 > 비교연산자 계산
+        System.out.println(result); // false (8>9)
+
+        result = (x + 2) * 3 > y; // 괄호안 덧셈 연산 후 괄호 밖 곱셈 계산 후 > 비교연산자 계산
+        System.out.println(result); // true (12>9)
     }
 }
