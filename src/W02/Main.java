@@ -157,5 +157,20 @@ public class Main {
 
         result = (x + 2) * 3 > y; // 괄호안 덧셈 연산 후 괄호 밖 곱셈 계산 후 > 비교연산자 계산
         System.out.println(result); // true (12>9)
+
+
+        //  산술변환
+        short x2 = 10;
+        int y2 = 20;
+        int z2 = x2 + y2; // 결과값은 더 큰 표현타입인 int 타입의 변수로만 저장할 수 있습니다.
+        long lx = 30L;
+        long lz = z2 + lx; // 결과값은 더 큰 표현타입인 long 타입의 변수로만 저장할 수 있습니다.
+        float fx = x2; // 결과값은 더 큰 표현타입인 float 타입의 변수로만 저장할 수 있습니다.
+        float fy = y2; // 결과값은 더 큰 표현타입인 float 타입의 변수로만 저장할 수 있습니다.
+        float fz = z2; // 결과값은 더 큰 표현타입인 float 타입의 변수로만 저장할 수 있습니다.
+        System.out.println(lz);
+        System.out.println(fx);
+        System.out.println(fy);
+        System.out.println(fz);
     }
 }
