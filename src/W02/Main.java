@@ -54,5 +54,16 @@ public class Main {
         System.out.println(c); // 0
 
 
+        // 비교 연산자
+        // 값의 크고, 작음을 비교하거나 같고, 다름을 비교하여 참, 거짓 값인 boolean 값을 출력한다.
+        System.out.println(10 > 9); // 10 는 9 보다 크다 (참이면 true, 거짓이면 false)
+        System.out.println(10 >= 9); // 10 는 9 보다 크거나 같다 (true)
+        System.out.println(10 < 9); // 10 는 9 보다 작다 (false)
+        System.out.println(10 <= 9); // 10 는 9 보다 작거나 같다 (false)
+        System.out.println(10 == 10); // 10 는 10 와 같다 (true)
+        System.out.println(10 == 9); // 10 는 9 과 같다 (false)
+        System.out.println(10 != 10); // 10 는 10 와 같지 않다 (false)
+        System.out.println(10 != 9); // 10 는 9 과 같지 않다 (true)
+
     }
 }
