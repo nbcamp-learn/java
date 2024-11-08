@@ -65,6 +65,7 @@ public class Main {
         System.out.println(10 != 10); // 10 는 10 와 같지 않다 (false)
         System.out.println(10 != 9); // 10 는 9 과 같지 않다 (true)
 
+
         // 논리 연산자
         // 비교 연산의 결과값으로 받을 수 있는 boolean 값을 연결하는 연산자
         // && (AND = 피연산자 모두 참), || (OR = 피연산자 둘중 하나라도 참), ! (피연산자의 반대 boolean 값)
@@ -98,5 +99,37 @@ public class Main {
         System.out.println(!flag3); // true (flag3 값의 반대)
         System.out.println(!(5 == 5)); // false
         System.out.println(!(5 == 3)); // true
+
+
+        // 대입 연산자
+        int number = 10;
+        number = number + 2;
+        System.out.println(number); // 12
+        number = number - 2;
+        System.out.println(number); // 10
+        number = number * 2;
+        System.out.println(number); // 20
+        number = number / 2;
+        System.out.println(number); // 10
+        number = number % 2;
+        System.out.println(number); // 0
+        number = number++;
+        System.out.println(number); // 2
+        number = number--;
+        System.out.println(number); // 0
+
+        // 복합 대입 연산자
+        number = 10;
+        number += 2;
+        System.out.println(number); // 12
+        number -= 2;
+        System.out.println(number); // 10
+        number *= 2;
+        System.out.println(number); // 20
+        number /= 2;
+        System.out.println(number); // 10
+        number %= 2;
+        System.out.println(number); // 0
+
     }
 }
