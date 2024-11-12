@@ -8,6 +8,7 @@ public class HW01_Sample {
         Scanner sc = new Scanner(System.in);
         String title = sc.nextLine();
         float rate = sc.nextFloat();
+        sc.nextLine();  // nextFloat는 공백이 없기 때문에 넣어줘야 함
         String input1 = sc.nextLine();
         String input2 = sc.nextLine();
         String input3 = sc.nextLine();
