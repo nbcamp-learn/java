@@ -20,9 +20,10 @@ public class HW01 {
         String input9 = sc.nextLine();
         String input10 = sc.nextLine();
 
-        System.out.println("[" + title + "]");
+        System.out.println("[ " + title + " ]");
 
-        System.out.println("별점 : " + (int) star + "(" + (star / 5) * 100 + ")");
+        int intRate = (int) star;
+        System.out.println("별점 : " + (int) star + " (" + ((double) intRate / 5) * 100 + "%)");
 
         System.out.println("1. " + input1);
         System.out.println("2. " + input2);
