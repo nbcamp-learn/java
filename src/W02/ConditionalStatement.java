@@ -4,7 +4,7 @@ public class ConditionalStatement {
 
     public static void main(String[] args) {
 
-        // 조건문
+        // 조건문 (IF문)
         boolean flag = true;
 
         if (flag) {
