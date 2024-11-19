@@ -130,6 +130,5 @@ public class Main {
         System.out.println(number); // 10
         number %= 2;
         System.out.println(number); // 0
-
     }
 }
