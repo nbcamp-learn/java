@@ -18,5 +18,6 @@ public class ConditionalStatement {
         } else {
             System.out.println("flag1 값은 false 입니다. "); // flag 값은 false 입니다. 출력됨
         }
+
     }
 }
